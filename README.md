@@ -34,3 +34,39 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License:
 [GPL3](https://choosealicense.com/licenses/gpl-3.0/)
+
+## TR
+
+# Neofetch  
+Log & Geçmiş  
+
+Bash (Bourne Again Shell) bulunan tüm Linux dağıtımlarıyla uyumlu, basit ve otomatik bir günlük & geçmiş temizleyici ve Neofetch benzeri sistem bilgisi gösterici betik.
+
+# Kurulum:
+```bash
+git clone https://github.com/Tarikdxd/neofetch.git
+cd neofetch
+sudo make install
+```
+
+### Derin Not:
+Depoyu klonladıktan sonra betiği doğrudan çalıştırabilirsiniz: **bash neofetch.sh --help**  
+Bu, taşınabilir bir betiktir.
+
+# Kullanım:
+
+- **neofetch --clean-logs** : Mevcut günlükleri temizler, ancak bu işlemden sonra bazı hizmetleri yeniden başlatmanız gerekebilir; aksi takdirde hizmetler çalışmayabilir.
+- **neofetch --clean-history** : Ev dizininizde bulunan ve `history` ile biten tüm dosya ve dizinleri temizler.
+- **neofetch --fetch-info** : Sistemin temel bilgilerini ekrana yazdırır. Gösterilen bilgiler: "OS", "UPTIME", "HOSTNAME", "USER TYPE", "CPU MODEL", "CPU USAGE", "RAM USAGE (önbellekli, aktif, pasif dahil)", "FREE RAM".
+- **neofetch --shell** : Küçük bir kabuk (sh benzeri) açar; burada komutları doğrudan çalıştırabilirsiniz.
+- **neofetch --banner** : Sadece banner'ı yazdırır.
+- **neofetch --no-banner** : Varsayılan olarak banner'ı gizler.
+- **neofetch --help** : Yardım metnini gösterir.
+- **neofetch --version** : Mevcut sürümü gösterir.
+
+## Katkıda Bulunma:
+Pull request'ler kabul edilir. Büyük değişiklikler yapmadan önce bir issue açarak tartışabilirsiniz.
+
+## Lisans:
+[GPL3](https://choosealicense.com/licenses/gpl-3.0/)
+
